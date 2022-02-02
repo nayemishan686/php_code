@@ -4,4 +4,8 @@ $sentence = "Lorem ipsum dolortttttttttttttttttttttttt sit amet consectetur adip
 $wrapping = wordwrap($sentence, 26,"\n", TRUE);
 echo $wrapping;
 
+
+//nl2br() ; function use for converting /n to <br />
+
+echo nl2br($wrapping);
 ?>
