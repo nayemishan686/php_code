@@ -55,9 +55,6 @@
     // file_put_contents($filename, $data);
     
 
-    // unset($students[1]);
-    // $data = serialize($students);
-    // file_put_contents($filename,$data, LOCK_EX);
 
 
 
