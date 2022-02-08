@@ -1,7 +1,9 @@
 <?php
     //Where i will write thats location
     $filename = "/media/nayemishan/Web Design & Dev/Learn With Hasin Hayder/Files/write.txt";
+    //Must check is writable
     if(is_writable($filename)){
+        
     //Use to take old files so that existing files cannot be removed
     //$oldData = file_get_contents($filename);
 
