@@ -13,7 +13,7 @@
   echo gmmktime(0,0,0,12,1,2022);
   echo PHP_EOL;
 
-  //To see date difference between two dates. You can use the following formula
+  //To see date difference between two dates. You can use following formula
   $firstDate = mktime(0,0,0,2,10,2022);
   $lastDate = mktime(0,0,0,2,21,2022);
   $dateDiff = ($lastDate - $firstDate)/(24*60*60);
