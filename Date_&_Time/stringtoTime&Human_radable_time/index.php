@@ -18,8 +18,8 @@
     echo PHP_EOL;
 
     //date diff function use
-    $d1 = new DateTime("20 May, 2022");
-    $d2 = new DateTime("22 January, 2022");
+    $d1 = new DateTime("22-01-2001");
+    $d2 = new DateTime("21-02-2022");
     $dateDiff = $d1->diff($d2);
     echo $dateDiff->format('%y Year %m Month %d Day');
 
