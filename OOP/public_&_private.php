@@ -45,5 +45,3 @@ echo PHP_EOL;
 $polytechnic -> seventhSemester(67);
 $polytechnic -> total();
 echo PHP_EOL;
-
-
