@@ -32,7 +32,7 @@ class MotorCycle{
 
 $R15V3 = new MotorCycle("150cc", "22ltr", "42km/ph");
 
-if(isset($R15V3->tiresize)){
+if(isset($R15V3->mileage)){
     echo "Found\n";
 }else{
     echo "Not Found\n";
