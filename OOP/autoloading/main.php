@@ -4,7 +4,7 @@ function autoload($name) {
 }
 
 spl_autoload_register("autoload");
-(new Bike)-> myBike();
+(new Bike)->myBike();
 echo PHP_EOL;
 (new Car)-> myCar();
 echo PHP_EOL;
